@@ -174,6 +174,8 @@ struct md2_header_t
 ident is the magic number of the file. It is used to identify the file type. ident must be equal to 844121161 or to the string “IDP2”. We can obtain this number with the expression (('2'<<24) + ('P'<<16) + ('D'<<8) + 'I').
 
 # Export Frames
+The frames can be exported in various formats. Exactly 360 images are generated for a full rotation to ensure uninterrupted animation.
 
+Formats : [BMP](https://en.wikipedia.org/wiki/BMP_file_format), [JPG](https://en.wikipedia.org/wiki/JPEG), [GIF](https://en.wikipedia.org/wiki/GIF)
 
 
