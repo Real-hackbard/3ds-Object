@@ -71,6 +71,48 @@ Below is a list of the most common IDs for chunks, represented in a hierarchical
       └─ 0xB030 // Hierarchy Position
 ```
 
+</br>
+
+# obj
+OBJ (or .OBJ) is a geometry definition file format first developed by [Wavefront Technologies](https://en.wikipedia.org/wiki/Wavefront_Technologies) for The [Advanced Visualizer](https://en.wikipedia.org/wiki/The_Advanced_Visualizer) animation package. It is an open file format and has been adopted by other [3D computer graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) application vendors.
+
+The OBJ file format is a simple data-format that represents 3D geometry alone – namely, the position of each [vertex](https://en.wikipedia.org/wiki/Vertex_(geometry)), the [UV position](https://en.wikipedia.org/wiki/UV_mapping) of each texture coordinate vertex, [vertex normals](https://en.wikipedia.org/wiki/Vertex_normal), and the faces that make each polygon defined as a list of vertices, and texture vertices. Vertices are stored in a counter-clockwise order by default, making explicit declaration of face normals unnecessary. OBJ coordinates have no units, but OBJ files can contain scale information in a human readable comment line.
+
+### Structure
+An OBJ file may contain vertex data, free-form curve/surface attributes, elements, free-form curve/surface body statements, connectivity between free-form surfaces, grouping and display/render attribute information. The most common elements are geometric vertices, texture coordinates, vertex normals and polygonal faces:
+
+</br>
+
+```pascal
+# List of geometric vertices, with (x, y, z, [w]) coordinates, w is optional and defaults to 1.0.
+v 0.123 0.234 0.345 1.0
+v ...
+...
+# List of texture coordinates, in (u, [v, w]) coordinates, these will vary between 0 and 1. v, w are optional and default to 0.
+vt 0.500 1 [0]
+vt ...
+...
+# List of vertex normals in (x,y,z) form; normals might not be unit vectors.
+vn 0.707 0.000 0.707
+vn ...
+...
+# Parameter space vertices in (u, [v, w]) form; free form geometry statement (see below)
+vp 0.310000 3.210000 2.100000
+vp ...
+...
+# Polygonal face element (see below)
+f 1 2 3
+f 3/1 4/2 5/3
+f 6/4/1 3/5/3 7/6/5
+f 7//1 8//2 9//3
+f ...
+...
+# Line element (see below)
+l 5 8 1 2 4 9
+```
+
+</br>
+
 
 
 
