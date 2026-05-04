@@ -1,4 +1,3 @@
-<img width="57" height="20" alt="052026" src="https://github.com/user-attachments/assets/5bc74da7-137e-43b7-a2cb-3c3f23b6fe86" />
 # 3ds-Object
 
 </br>
