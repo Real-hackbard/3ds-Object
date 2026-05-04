@@ -178,7 +178,7 @@ The frames can be exported in various formats. Exactly 360 images are generated 
 
 Formats : [BMP](https://en.wikipedia.org/wiki/BMP_file_format), [JPG](https://en.wikipedia.org/wiki/JPEG), [GIF](https://en.wikipedia.org/wiki/GIF)
 
-# Downlod Free Models:
+# Download Free Models:
 The project contains over 200 free models that can be used. For more, please refer to the website.
 
 * https://free3d.com/de/3d-models/
