@@ -18,7 +18,7 @@ It was the native file format of the old [Autodesk 3D Studio DOS](https://en.wik
 
 </br>
 
-<img src="https://github.com/user-attachments/assets/aee5a49a-e1ec-47b0-9454-9582f67f1118" />
+<img src="https://github.com/user-attachments/assets/aee5a49a-e1ec-47b0-9454-9582f67f1118" />  
 
 </br>
 
