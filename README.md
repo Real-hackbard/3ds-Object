@@ -127,10 +127,10 @@ MD2 model file's extension is “md2”. A MD2 file is a binary file divided in 
 
 Variable types used in this document have those sizes:
 
-* char: 1 byte
-* short: 2 bytes
-* int: 4 bytes
-* float: 4 bytes
+* ```char: 1 byte```
+* ```short: 2 bytes```
+* ```int: 4 bytes```
+* ```float: 4 bytes```
 
 They correspond to C type sizes on the x86 architecture. Ensure that type sizes correspond to these ones if you're compiling for another architecture.
 
