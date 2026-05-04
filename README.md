@@ -10,9 +10,9 @@
 
 </br>
 
+3DS is one of the file formats used by the [Autodesk 3ds Max 3D modeling](https://en.wikipedia.org/wiki/Autodesk_3ds_Max), animation and rendering software.
 
-
-
+It was the native file format of the old [Autodesk 3D Studio DOS](https://en.wikipedia.org/wiki/Autodesk_3ds_Max#Early_history_and_releases) (releases 1 to 4), which was popular until its successor (3D Studio MAX 1.0) replaced it in April 1996. Having been around since 1990 (when the first version of 3D Studio DOS was launched), it has grown to become a [de facto](https://en.wikipedia.org/wiki/De_facto) industry standard for transferring models between 3D programs, or for storing models for 3D resource catalogs (along with [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file), which is more frequently used as a model archiving file format).
 
 
 
