@@ -20,6 +20,7 @@ It was the native file format of the old [Autodesk 3D Studio DOS](https://en.wik
 
 <img src="https://github.com/user-attachments/assets/aee5a49a-e1ec-47b0-9454-9582f67f1118" />  
 
+
 </br>
 
 While the 3DS format aims to provide an import/export format, retaining only essential geometry, texture and lighting data, the related MAX format (now superseded by the PRJ format) also contains extra information specific to Autodesk 3ds Max, to allow a scene to be completely saved/loaded.
