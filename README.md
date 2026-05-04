@@ -136,7 +136,7 @@ They correspond to C type sizes on the x86 architecture. Ensure that type sizes 
 
 Since the MD2 file format is a binary format, you'll have to deal with endianess. MD2 files are stored in little-endian (x86). If you're targetting a big-endian architecture (PowerPC, SPARC, ...), or simply want your program to be portable, you'll have to perform proper conversions for each word or double word read from the file.
 
-### header
+### Header:
 The header is a structure which comes at the beginning of the file:
 
 </br>
@@ -168,6 +168,12 @@ struct md2_header_t
   int offset_end;             /* offset end of file */
 };
 ```
+
+</br>
+
+ident is the magic number of the file. It is used to identify the file type. ident must be equal to 844121161 or to the string “IDP2”. We can obtain this number with the expression (('2'<<24) + ('P'<<16) + ('D'<<8) + 'I').
+
+# Export Frames
 
 
 
