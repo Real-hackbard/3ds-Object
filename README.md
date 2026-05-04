@@ -20,7 +20,24 @@ It was the native file format of the old [Autodesk 3D Studio DOS](https://en.wik
 
 <img src="https://github.com/user-attachments/assets/aee5a49a-e1ec-47b0-9454-9582f67f1118" />
 
+</br>
+
 While the 3DS format aims to provide an import/export format, retaining only essential geometry, texture and lighting data, the related MAX format (now superseded by the PRJ format) also contains extra information specific to Autodesk 3ds Max, to allow a scene to be completely saved/loaded.
+
+### Structure
+3ds is a [binary file format](https://en.wikipedia.org/wiki/Binary_file).
+
+The format is based in chunks, where each section of data is embedded in a block that contains a chunk identifier and the length of the data (to provide the location of the next main block), as well as the data itself. This allows parsers to skip chunks they don't recognize, and allows for extensions to the format.
+
+The chunks form a hierarchical structure, similar to an xml [DOM tree](https://en.wikipedia.org/wiki/Document_Object_Model). The first two bytes of the chunk are its ID. From that value the parser can identify the chunk and decide whether it will parse it or skip it. The next four bytes contain a [little-endian](https://en.wikipedia.org/wiki/Endianness) integer that is the length of the chunk, including its data, the length of its sub-blocks and the 6-byte header. The next bytes are the chunk's data, followed by the sub-chunks, in a structure that may extend to several levels deep.
+
+Below is a list of the most common IDs for chunks, represented in a hierarchical fashion depicting their dependencies:
+
+
+
+
+
+
 
 
 
